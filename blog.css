@@ -1,0 +1,18 @@
+.blog h1{
+    text-align: center;
+}
+.content{
+    margin: 95px 44px;
+    padding: 5px 10px;
+}
+.btn-sm{
+    width: 71px;
+    margin: 2px 5px;
+    padding: 1px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+#more{
+    display: none;
+}

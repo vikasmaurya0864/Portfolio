@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 185, 241);
+
+}
+
+.sidebar{
+    /* background-color:rgba(82, 93, 105, 0.392); */
+    /* width: 220px; */
+    height: 100vh;
+    position: absolute;
+    transition: transform 0.3s ease-in;
+    
+}
+.desc{
+    margin-top: 10px;
+}
+#logo{
+    margin-top: 55px;
+    width: 102px;
+    height: 90px;
+    margin-left: 15px;
+
+    margin-top: 5px;
+    border-radius: 255px;
+}
+.btn{
+    margin-top: 5px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button{
+    padding: 0px 5px;
+    word-spacing: 15px;
+}
+.btn:hover{
+    color: rgba(0, 0, 10, 0.981);
+    background-color: rgb(132, 132, 254);
+}
+.sidebar nav{
+    padding: 10px 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+    padding: 54px 0px;
+    
+}
+
+.main{
+    /* background-color: rgb(66, 93, 245); */
+    width: 100vw;
+   
+}
+.container{
+    display: flex;
+}
+.info{
+    /* background-color: rgb(113, 113, 250); */
+    width: 60vw;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    border-radius: 10px;
+    height: 45vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    flex-direction: column;
+    margin: 122px 22px;
+}
+.info img {
+    margin-top: 0;
+    margin: 0px;
+    margin-left: 107.5px;
+    width: 29vw;
+    height: 45vh;
+    border-radius: 5px;
+}
+.ham{
+    width: 20px;
+    height: 20px;
+}
+.cross{
+    width: 20px;
+    height: 20px;
+    margin-left: 88px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+        position: absolute;
+}
+
+
+@media  (max-width: 560px){ 
+
+    .info img {
+        margin-top: 0;
+        margin: -26px;
+        margin-left:  55px;
+        width: 66vw;
+        height: 45vh;
+        border-radius: 5px;
+    }
+
+    .info{
+        
+        width: auto;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #logo{
+        
+        width: 35vh;
+        height: 10vh;
+        margin: auto;
+    }
+
+    
+}

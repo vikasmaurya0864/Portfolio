@@ -1,0 +1,62 @@
+.intro {
+    text-align: center;
+    margin: 40px 123px;
+    padding: 14px 37px;
+}
+
+.skillset {
+    padding: 3px 13px;
+    margin: 3px 12px;
+}
+
+.skills {
+    width: 250px;
+    background-color: red;
+    height: 5px;
+    border: 1px solid black;
+}
+
+.skill-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hundred {
+    width: 250px;
+    background-color: blue;
+}
+
+.s5 {
+    width: 125px;
+    background-color: green;
+}
+
+.fifty {
+    width: 125px;
+    background-color: orange;
+}
+
+.t25 {
+    background-color: red;
+    width: 83.33px;
+
+}
+
+@media (max-width: 560px) {
+    .intro {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 559px)and(min-width: 350px) {
+
+    .intro {
+        font-size: 44px;
+        width: 100%;
+        margin: auto;
+
+    }
+}
